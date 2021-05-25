@@ -24,16 +24,35 @@ class NumRomano {
 
         //descomponer el numero quizas hay mejores metodos pero voy hacerlo a pie :)
 //             
-//             m = numeroNatural / 1000;
-//             c = numeroNatural / 100 % 10;
+        m = numeroNatural / 1000;
+        c = numeroNatural / 100 % 10;
         d = numeroNatural / 10 % 10;
         u = numeroNatural % 10;
 
+        for (i = 1; i <= m; i++) {
+            romano = romano + "M";
+        }
+
+        if (c == 9) {
+            romano = romano + "CM";
+        } else if (c >= 5) {
+            romano = romano + "D";
+            for (i = 6; i <= c; i++) {
+                romano = romano + "C";
+            }
+        } else if (c == 4) {
+            romano = romano + "CD";
+        } else {
+            for (i = 1; i <= c; i++) {
+                romano = romano + "C";
+            }
+        }
+
         if (d == 9) {
-            romano = romano + "XL";
+            romano = romano + "XC";
         } else if (d >= 5) {
             romano = romano + "L";
-            for (i = 6; i <=d; i++) {
+            for (i = 6; i <= d; i++) {
                 romano = romano + "X";
             }
         } else if (d == 4) {
@@ -48,7 +67,7 @@ class NumRomano {
             romano = romano + "IX";
         } else if (u >= 5) {
             romano = romano + "V";
-            for (i = 6; i <=u; i++) {
+            for (i = 6; i <= u; i++) {
                 romano = romano + "I";
             }
         } else if (u == 4) {

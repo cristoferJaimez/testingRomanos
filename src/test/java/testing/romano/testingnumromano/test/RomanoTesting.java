@@ -1,14 +1,11 @@
 package testing.romano.testingnumromano.test;
 
-import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import org.junit.jupiter.params.provider.Arguments;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
-import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.runner.RunWith;
 
@@ -20,7 +17,7 @@ import org.junit.runner.RunWith;
 public class RomanoTesting {
 
     private NumRomano numRomano = new NumRomano();
-
+    
     @BeforeEach
     void init() {
         this.numRomano = new NumRomano();
@@ -42,7 +39,7 @@ public class RomanoTesting {
 //    @MethodSource("getRomano")        
 
     @ParameterizedTest
-    @CsvFileSource(resources = "/numeros.csv", numLinesToSkip = 1)
+    @CsvFileSource(resources = "/romanos.csv", numLinesToSkip = 1)
     void testNumerosRomanos(int numeroNatural, String numeroRomano) {
 
         //paso 1 void init lo esta haciendo ya :)
