@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="50" failures="0" name="testing.romano.testingnumromano.test.RomanoTesting" time="0.343" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_281-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/cristo/NetBeansProjects/testingNumRomano"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CO"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="test" value="testing.romano.testingnumromano.test.RomanoTesting"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/cristo/NetBeansProjects/testingNumRomano"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_281-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="maven.ext.class.path" value="/home/cristo/netbeans-12.0/netbeans/java/maven-nblib/netbeans-eventspy.jar:/home/cristo/netbeans-12.0/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="/home/cristo/netbeans-12.0/netbeans/java/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/home/cristo/netbeans-12.0/netbeans/java/maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.11.18-300.fc34.x86_64"/>
+    <property name="library.jansi.path" value="/home/cristo/netbeans-12.0/netbeans/java/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/cristo"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="cristo"/>
+    <property name="java.class.path" value="/home/cristo/netbeans-12.0/netbeans/java/maven/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/java/jdk1.8.0_281-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=testing.romano.testingnumromano.test.RomanoTesting -Dmaven.ext.class.path=/home/cristo/netbeans-12.0/netbeans/java/maven-nblib/netbeans-eventspy.jar:/home/cristo/netbeans-12.0/netbeans/java/maven-nblib/netbeans-eventspy.jar surefire:test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_281-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_281-amd64/jre/lib/resources.jar:/usr/java/jdk1.8.0_281-amd64/jre/lib/rt.jar:/usr/java/jdk1.8.0_281-amd64/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_281-amd64/jre/lib/jsse.jar:/usr/java/jdk1.8.0_281-amd64/jre/lib/jce.jar:/usr/java/jdk1.8.0_281-amd64/jre/lib/charsets.jar:/usr/java/jdk1.8.0_281-amd64/jre/lib/jfr.jar:/usr/java/jdk1.8.0_281-amd64/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/cristo/netbeans-12.0/netbeans/java/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="[1] numeroNatural=2, numeroRomano=II(testNumerosRomanos(int, String))" name="[1] numeroNatural=2, numeroRomano=II(testNumerosRomanos" time="0.134"/>
+  <testcase classname="[2] numeroNatural=3, numeroRomano=III(testNumerosRomanos(int, String))" name="[2] numeroNatural=3, numeroRomano=III(testNumerosRomanos" time="0.007"/>
+  <testcase classname="[3] numeroNatural=4, numeroRomano=IV(testNumerosRomanos(int, String))" name="[3] numeroNatural=4, numeroRomano=IV(testNumerosRomanos" time="0.005"/>
+  <testcase classname="[4] numeroNatural=5, numeroRomano=V(testNumerosRomanos(int, String))" name="[4] numeroNatural=5, numeroRomano=V(testNumerosRomanos" time="0.006"/>
+  <testcase classname="[5] numeroNatural=6, numeroRomano=VI(testNumerosRomanos(int, String))" name="[5] numeroNatural=6, numeroRomano=VI(testNumerosRomanos" time="0.008"/>
+  <testcase classname="[6] numeroNatural=7, numeroRomano=VII(testNumerosRomanos(int, String))" name="[6] numeroNatural=7, numeroRomano=VII(testNumerosRomanos" time="0.004"/>
+  <testcase classname="[7] numeroNatural=8, numeroRomano=VIII(testNumerosRomanos(int, String))" name="[7] numeroNatural=8, numeroRomano=VIII(testNumerosRomanos" time="0.006"/>
+  <testcase classname="[8] numeroNatural=9, numeroRomano=IX(testNumerosRomanos(int, String))" name="[8] numeroNatural=9, numeroRomano=IX(testNumerosRomanos" time="0.008"/>
+  <testcase classname="[9] numeroNatural=10, numeroRomano=X(testNumerosRomanos(int, String))" name="[9] numeroNatural=10, numeroRomano=X(testNumerosRomanos" time="0.006"/>
+  <testcase classname="[10] numeroNatural=11, numeroRomano=XI(testNumerosRomanos(int, String))" name="[10] numeroNatural=11, numeroRomano=XI(testNumerosRomanos" time="0.005"/>
+  <testcase classname="[11] numeroNatural=12, numeroRomano=XII(testNumerosRomanos(int, String))" name="[11] numeroNatural=12, numeroRomano=XII(testNumerosRomanos" time="0.003"/>
+  <testcase classname="[12] numeroNatural=13, numeroRomano=XIII(testNumerosRomanos(int, String))" name="[12] numeroNatural=13, numeroRomano=XIII(testNumerosRomanos" time="0.006"/>
+  <testcase classname="[13] numeroNatural=14, numeroRomano=XIV(testNumerosRomanos(int, String))" name="[13] numeroNatural=14, numeroRomano=XIV(testNumerosRomanos" time="0.005"/>
+  <testcase classname="[14] numeroNatural=15, numeroRomano=XV(testNumerosRomanos(int, String))" name="[14] numeroNatural=15, numeroRomano=XV(testNumerosRomanos" time="0.003"/>
+  <testcase classname="[15] numeroNatural=16, numeroRomano=XVI(testNumerosRomanos(int, String))" name="[15] numeroNatural=16, numeroRomano=XVI(testNumerosRomanos" time="0.002"/>
+  <testcase classname="[16] numeroNatural=17, numeroRomano=XVII(testNumerosRomanos(int, String))" name="[16] numeroNatural=17, numeroRomano=XVII(testNumerosRomanos" time="0.006"/>
+  <testcase classname="[17] numeroNatural=18, numeroRomano=XVIII(testNumerosRomanos(int, String))" name="[17] numeroNatural=18, numeroRomano=XVIII(testNumerosRomanos" time="0.003"/>
+  <testcase classname="[18] numeroNatural=19, numeroRomano=XIX(testNumerosRomanos(int, String))" name="[18] numeroNatural=19, numeroRomano=XIX(testNumerosRomanos" time="0.005"/>
+  <testcase classname="[19] numeroNatural=20, numeroRomano=XX(testNumerosRomanos(int, String))" name="[19] numeroNatural=20, numeroRomano=XX(testNumerosRomanos" time="0.012"/>
+  <testcase classname="[20] numeroNatural=21, numeroRomano=XXI(testNumerosRomanos(int, String))" name="[20] numeroNatural=21, numeroRomano=XXI(testNumerosRomanos" time="0.007"/>
+  <testcase classname="[21] numeroNatural=22, numeroRomano=XXII(testNumerosRomanos(int, String))" name="[21] numeroNatural=22, numeroRomano=XXII(testNumerosRomanos" time="0.008"/>
+  <testcase classname="[22] numeroNatural=23, numeroRomano=XXIII(testNumerosRomanos(int, String))" name="[22] numeroNatural=23, numeroRomano=XXIII(testNumerosRomanos" time="0.005"/>
+  <testcase classname="[23] numeroNatural=24, numeroRomano=XXIV(testNumerosRomanos(int, String))" name="[23] numeroNatural=24, numeroRomano=XXIV(testNumerosRomanos" time="0.003"/>
+  <testcase classname="[24] numeroNatural=25, numeroRomano=XXV(testNumerosRomanos(int, String))" name="[24] numeroNatural=25, numeroRomano=XXV(testNumerosRomanos" time="0.005"/>
+  <testcase classname="[25] numeroNatural=26, numeroRomano=XXVI(testNumerosRomanos(int, String))" name="[25] numeroNatural=26, numeroRomano=XXVI(testNumerosRomanos" time="0.004"/>
+  <testcase classname="[26] numeroNatural=27, numeroRomano=XXVII(testNumerosRomanos(int, String))" name="[26] numeroNatural=27, numeroRomano=XXVII(testNumerosRomanos" time="0.007"/>
+  <testcase classname="[27] numeroNatural=28, numeroRomano=XXVIII(testNumerosRomanos(int, String))" name="[27] numeroNatural=28, numeroRomano=XXVIII(testNumerosRomanos" time="0.003"/>
+  <testcase classname="[28] numeroNatural=29, numeroRomano=XXIX(testNumerosRomanos(int, String))" name="[28] numeroNatural=29, numeroRomano=XXIX(testNumerosRomanos" time="0.003"/>
+  <testcase classname="[29] numeroNatural=30, numeroRomano=XXX(testNumerosRomanos(int, String))" name="[29] numeroNatural=30, numeroRomano=XXX(testNumerosRomanos" time="0.002"/>
+  <testcase classname="[30] numeroNatural=31, numeroRomano=XXXI(testNumerosRomanos(int, String))" name="[30] numeroNatural=31, numeroRomano=XXXI(testNumerosRomanos" time="0.002"/>
+  <testcase classname="[31] numeroNatural=32, numeroRomano=XXXII(testNumerosRomanos(int, String))" name="[31] numeroNatural=32, numeroRomano=XXXII(testNumerosRomanos" time="0.002"/>
+  <testcase classname="[32] numeroNatural=33, numeroRomano=XXXIII(testNumerosRomanos(int, String))" name="[32] numeroNatural=33, numeroRomano=XXXIII(testNumerosRomanos" time="0.002"/>
+  <testcase classname="[33] numeroNatural=34, numeroRomano=XXXIV(testNumerosRomanos(int, String))" name="[33] numeroNatural=34, numeroRomano=XXXIV(testNumerosRomanos" time="0.001"/>
+  <testcase classname="[34] numeroNatural=35, numeroRomano=XXXV(testNumerosRomanos(int, String))" name="[34] numeroNatural=35, numeroRomano=XXXV(testNumerosRomanos" time="0.001"/>
+  <testcase classname="[35] numeroNatural=36, numeroRomano=XXXVI(testNumerosRomanos(int, String))" name="[35] numeroNatural=36, numeroRomano=XXXVI(testNumerosRomanos" time="0.004"/>
+  <testcase classname="[36] numeroNatural=37, numeroRomano=XXXVII(testNumerosRomanos(int, String))" name="[36] numeroNatural=37, numeroRomano=XXXVII(testNumerosRomanos" time="0.002"/>
+  <testcase classname="[37] numeroNatural=38, numeroRomano=XXXVIII(testNumerosRomanos(int, String))" name="[37] numeroNatural=38, numeroRomano=XXXVIII(testNumerosRomanos" time="0.002"/>
+  <testcase classname="[38] numeroNatural=39, numeroRomano=XXXIX(testNumerosRomanos(int, String))" name="[38] numeroNatural=39, numeroRomano=XXXIX(testNumerosRomanos" time="0.002"/>
+  <testcase classname="[39] numeroNatural=40, numeroRomano=XL(testNumerosRomanos(int, String))" name="[39] numeroNatural=40, numeroRomano=XL(testNumerosRomanos" time="0.008"/>
+  <testcase classname="[40] numeroNatural=41, numeroRomano=XLI(testNumerosRomanos(int, String))" name="[40] numeroNatural=41, numeroRomano=XLI(testNumerosRomanos" time="0.002"/>
+  <testcase classname="[41] numeroNatural=42, numeroRomano=XLII(testNumerosRomanos(int, String))" name="[41] numeroNatural=42, numeroRomano=XLII(testNumerosRomanos" time="0.002"/>
+  <testcase classname="[42] numeroNatural=43, numeroRomano=XLIII(testNumerosRomanos(int, String))" name="[42] numeroNatural=43, numeroRomano=XLIII(testNumerosRomanos" time="0.01"/>
+  <testcase classname="[43] numeroNatural=44, numeroRomano=XLIV(testNumerosRomanos(int, String))" name="[43] numeroNatural=44, numeroRomano=XLIV(testNumerosRomanos" time="0.003"/>
+  <testcase classname="[44] numeroNatural=45, numeroRomano=XLV(testNumerosRomanos(int, String))" name="[44] numeroNatural=45, numeroRomano=XLV(testNumerosRomanos" time="0.003"/>
+  <testcase classname="[45] numeroNatural=46, numeroRomano=XLVI(testNumerosRomanos(int, String))" name="[45] numeroNatural=46, numeroRomano=XLVI(testNumerosRomanos" time="0.002"/>
+  <testcase classname="[46] numeroNatural=47, numeroRomano=XLVII(testNumerosRomanos(int, String))" name="[46] numeroNatural=47, numeroRomano=XLVII(testNumerosRomanos" time="0.002"/>
+  <testcase classname="[47] numeroNatural=48, numeroRomano=XLVIII(testNumerosRomanos(int, String))" name="[47] numeroNatural=48, numeroRomano=XLVIII(testNumerosRomanos" time="0.004"/>
+  <testcase classname="[48] numeroNatural=49, numeroRomano=XLIX(testNumerosRomanos(int, String))" name="[48] numeroNatural=49, numeroRomano=XLIX(testNumerosRomanos" time="0.002"/>
+  <testcase classname="[49] numeroNatural=50, numeroRomano=L(testNumerosRomanos(int, String))" name="[49] numeroNatural=50, numeroRomano=L(testNumerosRomanos" time="0.003"/>
+  <testcase classname="[50] numeroNatural=51, numeroRomano=LI(testNumerosRomanos(int, String))" name="[50] numeroNatural=51, numeroRomano=LI(testNumerosRomanos" time="0.003"/>
+</testsuite>
